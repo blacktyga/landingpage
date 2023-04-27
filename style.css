@@ -1,0 +1,306 @@
+/* Estilos gerais */
+
+/* Media query para smartphones */
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para smartphones */
+   
+
+    .preview-section {
+      display:none
+     
+    }
+    
+
+  }
+  
+  /* Media query para tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos específicos para tablets */
+    
+    .preview-section {
+     display: none;
+    }
+    
+   
+
+    }
+  
+  
+  /* Media query para desktops */
+  @media only screen and (min-width: 1025px) {
+    /* Estilos específicos para desktops */
+    .preview-section {
+      justify-content: right;
+      position: fixed 1;
+      align-items: right;
+      margin-top: -800px;
+      margin-bottom: 200px;
+      text-align: 
+      
+    }
+    .trailers{
+margin-left: 60px;
+color: #fff;
+
+    }
+
+    .preview-image{
+     
+      list-style: none;         
+      width: 200px; 
+      height:auto; 
+      padding: 10px;
+      
+
+    }
+    
+    ul {
+      list-style: none;
+    }
+
+
+    hr {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: none;
+      height: 2px;
+      background-color: #05050500;
+    }
+  }
+  
+ 
+
+  body {
+    background-image: url('images/Movie\ Background.png');
+    background-size: contain;
+    image-resolution: 100%;
+    
+    background-repeat: no-repeat;
+      background-position: top;
+      image-rendering: optimizeQuality;
+  }
+  
+
+
+  h1 {
+    font-family: 'EB Garamond', serif;
+    
+  }
+  
+  
+  h2 {
+    font-family: 'EB Garamond', serif;
+    
+  }
+  
+  h3 {
+    font-family: 'EB Garamond', serif;
+    
+  }
+  
+  
+  h4 {
+    font-family: 'EB Garamond', serif;
+    
+  }
+  
+  p {
+font-family: 'Open Sans';
+font-size: smaller;
+font-weight: 600;
+
+  }
+    
+  
+    
+      
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+  }
+  
+
+
+  .menu {
+    display: none;
+  }
+  
+  
+
+
+  /* Divisão horizontal */
+  
+
+
+
+
+  
+  
+  /* Seção de pré-visualização das imagens */
+  
+  
+  
+  .prize-top {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: #fff;
+    background-position: 100%;
+    padding: 20px;
+  }
+
+
+  .Cause-top {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .text-box-cause {
+    flex: 1;
+    color:   #fff;;
+    padding: 80px;
+    background-color: rgb(0, 0, 0);
+    
+    
+  }
+  
+  .image-box-cause {
+    flex: 1;
+    size: 80px;
+   
+  }
+
+
+  .game-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .text-box-game {
+    flex: 1;
+    max-width: fit-content;
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+    
+    /* outras propriedades de estilo para a caixa de texto */
+  }
+  
+  .image-box-game {
+    flex: 1;
+    /* outras propriedades de estilo para a caixa de imagem */
+  }
+
+  .form-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .text-box-form {
+    flex: 1;
+    max-width: fit-content;
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+    
+    /* outras propriedades de estilo para a caixa de texto */
+  }
+  
+  .image-box-form {
+    flex: 1;
+    /* outras propriedades de estilo para a caixa de imagem */
+  }
+
+
+ 
+  .button {
+    background-color: #d1ae11; /* cor de fundo */
+    border: none; /* remover borda */
+    color: white; /* cor do texto */
+    padding: 10px 20px; /* espaçamento interno */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* remover sublinhado */
+    display: inline-block; /* exibir como bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem externa */
+    cursor: pointer; /* cursor de mouse */
+    border-radius: 3px; /* borda arredondada */
+    transition-duration: 0.4s; /* duração da transição */
+  }
+  
+  .button:hover {
+    background-color: #000000; /* cor de fundo ao passar o mouse */
+    color: white; /* cor do texto ao passar o mouse */
+  }
+
+
+  }
+
+
+    .title-description {
+    padding: 3px;
+    margin: 10px;
+
+    }
+
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  footer h1,
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+  
+  footer h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
